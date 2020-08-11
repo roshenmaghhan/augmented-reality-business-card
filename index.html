@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html>
+<script type="text/javascript" src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="aframe_ar.js"> </script>
+<script src="https://rawgit.com/mayognaise/aframe-gif-shader/master/dist/aframe-gif-shader.min.js"></script>
+<script src="https://rawgit.com/mayognaise/aframe-gif-component/master/dist/aframe-gif-component.min.js"></script>
+<meta name="mobile-web-app-capable" content="yes">
+
+  <body style='margin : 0px; overflow: hidden;'>
+    <a-scene embedded arjs>
+  		<a-marker-camera preset='custom' url='pattern-marker.patt'>
+        <a-plane color="#e5e5e5" height="0" width="0" position="0 0 0" rotation="-90 0 0" opacity="0.8">
+          <a-animation attribute="width"
+              delay="5000"
+              dur="1000"
+              from= "0"
+              to="2"
+              direction="normal" repeat="0"></a-animation>
+
+          <a-animation attribute="height"
+              delay="5000"
+              dur="1000"
+              from= "0"
+              to="2"
+              direction="normal" repeat="0"></a-animation>
+
+          <a-animation attribute="opacity"
+              delay="6500"
+              dur="500"
+              from= "0.8"
+              to="0"
+              direction="normal" repeat="0"></a-animation>
+  
+          <a-animation attribute="opacity"
+              delay="7100"
+              dur="500"
+              from= "0"
+              to="0.8"
+              direction="normal" repeat="0"></a-animation>
+        </a-plane>
+
+
+
+
+
+        <a-plane color="#ffde61" height="1" width="4" position="2.5 0 0" rotation="-90 0 0" opacity="0">
+            <a-animation attribute="position"
+              delay="7000"
+              dur="1000"
+              from= "0 0 0"
+              to="3.5 0 -0.5"
+              direction="normal" repeat="0"></a-animation>
+            <a-animation attribute="opacity"
+              delay="7000"
+              dur="1000"
+              from= "0"
+              to="0.8"
+              direction="normal" repeat="0"></a-animation>
+            <a-text color="#000" font="aileronsemibold" width="8" align="center" value="ROSHEN MAGHHAN" position="0 0 0.36" opacity="0">
+              <a-animation attribute="opacity"
+                delay="7000"
+                dur="1000"
+                from= "0"
+                to="0.8"
+                direction="normal" repeat="0"></a-animation>
+            </a-text>
+        </a-plane>
+
+        <a-plane color="#ffde61" height="0.5" width="3" position="3 0 0.5" rotation="-90 0 0" opacity="0">
+            <a-animation attribute="position"
+              delay="8500"
+              dur="1000"
+              from= "3.5 0 -0.5"
+              to="3 0 0.5"
+              direction="normal" repeat="0"></a-animation>   
+            <a-animation attribute="opacity"
+              delay="8500"
+              dur="1000"
+              from= "0"
+              to="0.8"
+              direction="normal" repeat="0"></a-animation>
+
+            <a-text color="#000" font="aileronsemibold" width="4" align="center" value="www.roshenmaghhan.ga" position="0 0 0.6" opacity="0">
+              <a-animation attribute="opacity"
+              delay="8500"
+              dur="1000"
+              from= "0"
+              to="1"
+              direction="normal" repeat="0"></a-animation>
+            </a-text>
+        </a-plane>
+
+        <a-circle color="#fff" radius="0.3" rotation="-90 0 0" position="5.2 0 0.5" opacity="0">  
+            <a-animation attribute="opacity"
+              delay="8500"
+              dur="1000"
+              from= "0"
+              to="1"
+              direction="normal" repeat="0"></a-animation>
+
+          <a-image src="./images/internet.png" align="center" width="0.4" height="0.4" position="0 0 0.2" opacity="0">
+             <a-animation attribute="opacity"
+              delay="8000"
+              dur="1000"
+              from= "0"
+              to="1"
+              direction="normal" repeat="0"></a-animation>
+          </a-image>
+        </a-circle>
+
+        
+        <a-plane color="#ffde61" height="0.5" width="3" position="3 0 1.2" rotation="-90 0 0" opacity="0">
+            <a-animation attribute="position"
+              delay="8500"
+              dur="1000"
+              from= "3.5 0 -0.5"
+              to="3 0 1.2"
+              direction="normal" repeat="0"></a-animation>   
+            <a-animation attribute="opacity"
+              delay="8500"
+              dur="1000"
+              from= "0"
+              to="0.8"
+              direction="normal" repeat="0"></a-animation>
+          <a-text color="#000" font="aileronsemibold" width="4" align="center" value="roshenmaghhan@gmail.com" position="0 0 0.6" opacity="0">
+            <a-animation attribute="opacity"
+              delay="8500"
+              dur="1000"
+              from= "0"
+              to="1"
+              direction="normal" repeat="0"></a-animation>
+          </a-text>
+        </a-plane>
+
+        <a-circle color="#fff" radius="0.3" rotation="-90 0 0" position="5.2 0 1.2" opacity="0">
+          <a-animation attribute="opacity"
+              delay="8500"
+              dur="1000"
+              from= "0"
+              to="1"
+              direction="normal" repeat="0"></a-animation>
+          <a-image src="./images/mail.png" align="center" width="0.4" height="0.4" position="0 0 0.2" opacity="0">
+            <a-animation attribute="opacity"
+              delay="8000"
+              dur="1000"
+              from= "0"
+              to="1"
+              direction="normal" repeat="0"></a-animation>
+          </a-image>
+        </a-circle>
+
+
+
+
+        <a-plane color="#ffde61" height="0.5" width="3" position="3 0 1.9" rotation="-90 0 0" opacity="0">
+            <a-animation attribute="position"
+              delay="8500"
+              dur="1000"
+              from= "3.5 0 -0.5"
+              to="3 0 1.9"
+              direction="normal" repeat="0"></a-animation>   
+            <a-animation attribute="opacity"
+              delay="8500"
+              dur="1000"
+              from= "0"
+              to="0.8"
+              direction="normal" repeat="0"></a-animation>
+
+           <a-text color="#000" font="aileronsemibold" width="4" align="center" value="@roshennn" position="0 0 0.6" opacity="0">
+            <a-animation attribute="opacity"
+              delay="8500"
+              dur="1000"
+              from= "0"
+              to="1"
+              direction="normal" repeat="0"></a-animation>
+          </a-text>
+        </a-plane>
+
+        <a-circle color="#fff" radius="0.3" rotation="-90 0 0" position="5.2 0 1.9" opacity="0">
+          <a-animation attribute="opacity"
+              delay="8500"
+              dur="1000"
+              from= "0"
+              to="1"
+              direction="normal" repeat="0"></a-animation>
+          <a-image src="./images/social.png" align="center" width="0.5" height="0.5" position="0 0 0.2" opacity="0">
+            <a-animation attribute="opacity"
+              delay="8000"
+              dur="1000"
+              from= "0"
+              to="1"
+              direction="normal" repeat="0"></a-animation>
+          </a-image>
+        </a-circle>
+
+
+
+
+
+
+        <a-image src="./images/me.jpg" width="3" height="4.5" position="7.5 0 1.2" rotation="-90 0 0" opacity="0">
+            <a-animation attribute="position"
+              delay="6000"
+              dur="1000"
+              from= "0 0 0"
+              to="7.5 0 1.2"
+              direction="normal" repeat="0"></a-animation>
+            <a-animation attribute="opacity"
+              delay="6000"
+              dur="1000"
+              from= "0"
+              to="1"
+              direction="normal" repeat="0"></a-animation>          
+        </a-image>
+
+
+
+        <a-plane color="#ffde61" height="0.5" width="2" position="0 0 1.5" rotation="-90 0 0" opacity="0">
+            <a-animation attribute="position"
+              delay="10000"
+              dur="1000"
+              from= "-1 0 1.5"
+              to="0 0 1.5"
+              direction="normal" repeat="0"></a-animation>
+
+            <a-animation attribute="opacity"
+              delay="10000"
+              dur="1000"
+              from= "0"
+              to="1"
+              direction="normal" repeat="0"></a-animation>
+
+          <a-text color="#000" font="aileronsemibold" width="4" align="center" value="SKILLS :" position="0 0 0.5" opacity="0">
+            <a-animation attribute="opacity"
+              delay="10000"
+              dur="1000"
+              from= "0"
+              to="1"
+              direction="normal" repeat="0"></a-animation>
+          </a-text>
+        </a-plane>
+
+
+
+
+        <a-plane color="#ffde61" height="0.5" width="2" position="0 0 2.2" rotation="-90 0 0" opacity="0">
+
+            <a-animation attribute="position"
+              delay="10000"
+              dur="1000"
+              from= "-1 0 2.2"
+              to="0 0 2.2"
+              direction="normal" repeat="0"></a-animation>
+
+            <a-animation attribute="opacity"
+              delay="10000"
+              dur="1000"
+              from= "0"
+              to="1"
+              direction="normal" repeat="0"></a-animation>
+          <a-text color="#000" font="aileronsemibold" width="3" align="center" value="APP DEVELOPMENT" position="0 0 0.5" opacity="0">
+            <a-animation attribute="opacity"
+              delay="10000"
+              dur="1000"
+              from= "0"
+              to="1"
+              direction="normal" repeat="0"></a-animation>
+          </a-text>
+        </a-plane>
+
+
+
+
+        <a-plane color="#ffde61" height="0.5" width="2" position="0 0 2.9" rotation="-90 0 0" opacity="0">
+            <a-animation attribute="position"
+              delay="10000"
+              dur="1000"
+              from= "-1 0 2.9"
+              to="0 0 2.9"
+              direction="normal" repeat="0"></a-animation>
+
+            <a-animation attribute="opacity"
+              delay="10000"
+              dur="1000"
+              from= "0"
+              to="1"
+              direction="normal" repeat="0"></a-animation>
+          <a-text color="#000" font="aileronsemibold" width="3" align="center" value="CYBER SECURITY" position="0 0 0.5" opacity="0">
+            <a-animation attribute="opacity"
+              delay="10000"
+              dur="1000"
+              from= "0"
+              to="1"
+              direction="normal" repeat="0"></a-animation>
+          </a-text>
+        </a-plane>
+
+
+
+        <a-plane color="#ffde61" height="0.5" width="2" position="0 0 3.6" rotation="-90 0 0" opacity="0">
+            <a-animation attribute="position"
+              delay="10000"
+              dur="1000"
+              from= "-1 0 3.6"
+              to="0 0 3.6"
+              direction="normal" repeat="0"></a-animation>
+
+            <a-animation attribute="opacity"
+              delay="10000"
+              dur="1000"
+              from= "0"
+              to="1"
+              direction="normal" repeat="0"></a-animation>
+          <a-text color="#000" font="aileronsemibold" width="3" align="center" value="WEB DEVELOPMENT" position="0 0 0.5" opacity="0">
+            <a-animation attribute="opacity"
+              delay="10000"
+              dur="1000"
+              from= "0"
+              to="1"
+              direction="normal" repeat="0"></a-animation>
+          </a-text> 
+        </a-plane>
+
+      </a-marker-camera>
+    </a-scene>
+  </body>
+</html>
